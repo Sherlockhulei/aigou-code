@@ -10,5 +10,5 @@ spring:
       discovery:
         enabled: true
         service-id: CONFIG-SERVER
-      name: application-zuul
+      name: application-product
       profile: dev

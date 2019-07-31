@@ -5,8 +5,8 @@ package cn.itsource.basic.util;
  */
 public class AjaxResult {
 
-    private boolean success;
-    private String msg;
+    private boolean success = true;
+    private String msg = "操作成功";
     private Object resultObj;
     private Integer errorCode;
 
