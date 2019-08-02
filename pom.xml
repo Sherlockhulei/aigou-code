@@ -15,6 +15,7 @@
         <module>basic_parent</module>
         <module>plat_parent</module>
         <module>product_parent</module>
+        <module>common_parent</module>
     </modules>
 
     <properties>

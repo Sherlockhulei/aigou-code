@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl: #注册中心的注册地址
+      defaultZone: http://localhost:1000/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVER
+      name: application-common
+      profile: dev

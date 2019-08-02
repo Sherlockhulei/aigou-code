@@ -83,4 +83,15 @@ public class ProductTypeController {
         IPage<ProductType> page = productTypeService.page(new Page<ProductType>(query.getPageNum(),query.getPageSize()));
         return new PageList<>(page.getTotal(),page.getRecords());
     }
+
+    @GetMapping("/homePage")
+    public AjaxResult homePage(){
+        try {
+            productTypeService.homePage();
+            return AjaxResult.getAjaxResult();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.getAjaxResult().setSuccess(false).setMsg("操作失败");
+        }
+    }
 }
