@@ -15,7 +15,7 @@ public class LoginController {
             String userName = user.getUserName();
             String password = user.getPassword();
             if ("luffy".equals(userName) && "123".equals(password)){
-                return AjaxResult.getAjaxResult().setSuccess(true).setMsg("登陆成功");
+                return AjaxResult.getAjaxResult().setSuccess(true).setMsg("登陆成功").setResultObj(user);
             }
         }
         return AjaxResult.getAjaxResult().setSuccess(false).setMsg("登陆失败，请重新确认用户名及密码");

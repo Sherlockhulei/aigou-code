@@ -80,7 +80,7 @@ public class ProductType extends Model<ProductType> {
     private Long typeTemplateId;
 
     @TableField(exist = false)
-    private List<ProductType> children = new ArrayList<>();
+    private List<ProductType> children;
 
     public List<ProductType> getChildren() {
         return children;

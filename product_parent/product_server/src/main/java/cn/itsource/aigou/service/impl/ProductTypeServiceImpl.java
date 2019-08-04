@@ -71,7 +71,7 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
         targetPath = "D:/ruanjian/IDEA/aigou-web-parent/aigou-web-homePage/home.html";
         Map<String,String> model = new HashMap<>();
         model.put("staticRoot", "D:/ruanjian/IDEA/aigou-parent/product_parent/" +
-                "product_server/src/main/resources");
+                "product_server/src/main/resources/");
         map.put("model", model);
         map.put("templatePath", templatePath);
         map.put("targetPath", targetPath);
@@ -94,6 +94,10 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
                     list.add(parent);
                 }else {
                     ProductType productType = map.get(parent.getPid());
+                    List<ProductType> children = parent.getChildren();
+                    if (children == null) {
+                        parent.setChildren(new ArrayList<>());
+                    }
                     productType.getChildren().add(parent);
                 }
             }
