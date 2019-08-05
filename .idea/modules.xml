@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/basic_parent/basic_generator/basic_generator.iml" filepath="$PROJECT_DIR$/basic_parent/basic_generator/basic_generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic_parent/basic_parent.iml" filepath="$PROJECT_DIR$/basic_parent/basic_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic_parent/basic_util/basic_util.iml" filepath="$PROJECT_DIR$/basic_parent/basic_util/basic_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common_parent/common_interface/common_interface.iml" filepath="$PROJECT_DIR$/common_parent/common_interface/common_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common_parent/common_parent.iml" filepath="$PROJECT_DIR$/common_parent/common_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common_parent/common_service/common_service.iml" filepath="$PROJECT_DIR$/common_parent/common_service/common_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/config_servier/config_servier.iml" filepath="$PROJECT_DIR$/config_servier/config_servier.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat_parent/plat_interface/plat_interface.iml" filepath="$PROJECT_DIR$/plat_parent/plat_interface/plat_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat_parent/plat_parent.iml" filepath="$PROJECT_DIR$/plat_parent/plat_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat_parent/plat_service/plat_service.iml" filepath="$PROJECT_DIR$/plat_parent/plat_service/plat_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product_parent/product_interface/product_interface.iml" filepath="$PROJECT_DIR$/product_parent/product_interface/product_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product_parent/product_parent.iml" filepath="$PROJECT_DIR$/product_parent/product_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product_parent/product_server/product_server.iml" filepath="$PROJECT_DIR$/product_parent/product_server/product_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangcheng-eureka/shangcheng-eureka.iml" filepath="$PROJECT_DIR$/shangcheng-eureka/shangcheng-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangcheng-parent.iml" filepath="$PROJECT_DIR$/shangcheng-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />

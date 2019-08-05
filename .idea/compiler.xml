@@ -6,21 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="basic_generator" />
         <module name="basic_util" />
+        <module name="common_interface" />
+        <module name="common_service" />
         <module name="config_servier" />
         <module name="plat_interface" />
         <module name="plat_service" />
+        <module name="product_interface" />
+        <module name="product_server" />
         <module name="shangcheng-eureka" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="basic_generator" target="8" />
       <module name="basic_parent" target="8" />
       <module name="basic_util" target="8" />
+      <module name="common_interface" target="8" />
+      <module name="common_parent" target="8" />
+      <module name="common_service" target="8" />
       <module name="config_servier" target="8" />
       <module name="plat_interface" target="8" />
       <module name="plat_parent" target="8" />
       <module name="plat_service" target="8" />
+      <module name="product_interface" target="8" />
+      <module name="product_parent" target="8" />
+      <module name="product_server" target="8" />
       <module name="shangcheng-eureka" target="8" />
       <module name="shangcheng-parent" target="8" />
       <module name="zuul" target="8" />

@@ -1,0 +1,19 @@
+server:
+  port: 4000
+
+eureka:
+  client:
+    serviceUrl: #注册中心的注册地址
+      defaultZone: http://localhost:1000/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Sherlockhulei/aigou.git
+          username: Sherlockhulei
+          password: SOSHULEI19950404
